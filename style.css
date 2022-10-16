@@ -1,4 +1,4 @@
-#principal{
+.principal{
     box-sizing: border-box;
     width: 55%;
     height: 700px;
@@ -9,33 +9,33 @@
     margin-top: 200px;
 }
 
-#izquierda,
-#derecha {
+.izquierda,
+.derecha {
     box-sizing: border-box;
     width: 50%;
     height: 100%;
 }
 
-#izquierda {
+.izquierda {
     float: left;
     padding-top: 150px;
     padding-left: 2px;
 }
 
-#derecha {
+.derecha {
     float: right;
     padding-top: 150px;
     padding-left: 200px;
 }
 
-#cabeza,
-#cuerpo,
-#pie {
+.cabeza,
+.cuerpo,
+.pie {
     box-sizing: border-box;
     width: 300px;
 }
 
-#in1,
+#in1, #in2,
 textarea {
     box-sizing: border-box;
     width: 300px;
@@ -46,6 +46,7 @@ textarea {
 }
 
 #in1::placeholder,
+#in2::placeholder,
 textarea::placeholder{
     color: rgba(47,51,46,255);
 }
@@ -54,7 +55,7 @@ textarea {
     height: 150px;
 }
 
-#in2 {
+#in3 {
     box-sizing: border-box;
     width: 300px;
     margin-top: 5px;
